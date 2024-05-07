@@ -1,0 +1,130 @@
+*{
+    font-family: sans-serif;
+    margin: 0; 
+    padding: 0;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    width: 1139px;
+    margin-top: 37px;
+    margin-bottom: 47px;
+}
+
+.paragraph {
+    font-size: 16px;
+    line-height: 26px;
+    color: #1F3F68;
+}
+
+.heading-1 {
+    font-size: 64px;
+    color: #1F3F68;
+    width: 510px;
+}
+
+.top_content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.top_information {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: url('../assets/titleBackground.png');
+    width: 1366px;
+    height: 250px;
+    color: white;
+}
+
+.top_information > p {
+    color: white;
+    max-width: 780px;
+}
+
+.top_information > h1 {
+    color: white;
+}
+
+.main_information {
+    height: 1545px;
+}
+
+.main_information_body {
+    display: flex;
+    justify-content: space-around;
+}
+
+.main_information_body-bloc {
+    width: 359px;
+}
+.main_information_body-bloc > p {
+    width: 359px;
+}
+
+.footer_content-block {
+    width: 495px;
+}
+
+.contactUs-list {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+
+.map {
+    width: 100%;
+}
+
+.main_block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactH2 {
+    font-weight: 500;
+    font-size: 44px;
+    text-align: center;
+}
+
+.heading-3 {
+    font-size: 36px;
+    text-align: center;
+}
+
+.heading-4 {
+    font-size: 20px;
+    line-height: 30px;
+    color: #1F3F68;
+}
+
+.inputText {
+    border: 1px solid #356EAD;
+    box-sizing: border-box;
+    border-radius: 10px;
+    opacity: 0.4.
+}
+
+.btnSubmit {
+    background: #5A98D0;
+    box-shadow: 5px 20px 50px rgba(16, 112, 177, 0.2);
+    border-radius: 10px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px; 
+    text-align: center; 
+    color: #FFFFFF; 
+    text-transform: uppercase;
+}
